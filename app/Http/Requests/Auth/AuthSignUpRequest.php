@@ -26,9 +26,9 @@ class AuthSignUpRequest extends FormRequest
     return [
       'name'                 => 'required|max:255',
       'username'             => 'required|unique:users|min:6|max:15',
-      'email'                => 'required|unique:users|email:dns',
+      'email'                => 'required|unique:users',
       'password'             => 'required|min:6',
-      'g-recaptcha-response' => 'required|captcha'
+     // 'g-recaptcha-response' => 'required|captcha'
     ];
   }
 }

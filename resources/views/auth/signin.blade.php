@@ -2,7 +2,6 @@
 
 @section('content')
   <main class="form-signin">
-    <img class="mb-4" src="/assets/img/palmtree-silhouette.svg" alt="Palm Tree" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Sign In</h1>
 
     <form action="/" method="POST">
@@ -36,7 +35,7 @@
       </div>
 
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-      <p class="mt-3 mb-3 text-muted">&copy; SPK Objek Wisata {{ now()->year }}</p>
+      <p class="mt-3 mb-3 text-muted">&copy; SPK Pelanggan Terbaik {{ now()->year }}</p>
     </form>
   </main>
 @endsection
